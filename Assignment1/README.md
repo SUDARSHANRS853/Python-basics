@@ -43,7 +43,7 @@ Output
 ```
 Lowest number is: 4
 ```
-3. ## even number detector
+3. ## Even number detector
 ```
 num= int(input('enter a number:'))
 if num%2==0:
@@ -68,7 +68,7 @@ Output
 enter a number:23
 entered number %d is odd
 ```
-5. ## fibonacci series
+5. ## Fibonacci series
 ```
 n= int(input('enter the number of terms:'))
 a,b=0,1
@@ -83,7 +83,7 @@ enter the number of terms:10
 fibanacci series
 0 1 1 2 3 5 8 13 21 34
 ```
-6. ## find the grosspay using try end except
+6. ## Find the grosspay using try end except
 ```
 try:
     hours=int(input("enter the number of hours"))
@@ -100,7 +100,7 @@ gross salary 50
 enter the number of hours1.6
 please enter the positive numeric value
 ```
-7. ## by using rate nad working hours find the grosspay
+7. ## By using rate nad working hours find the grosspay
 ```
 hours=int(input("enter the number of hours"))
 rate=10
