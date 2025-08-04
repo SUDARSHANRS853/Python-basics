@@ -120,7 +120,126 @@ Output
 ```
 hello
 first -1
-
 ```
+10. ##
+```
+while True:
+    line=input('>')
+    if line == 'done':
+        break
+    print(line)
+print('done!')
+```
+Output
+```
+>hai
+hai
+>hello im sudarshan
+hello im sudarshan
+>123
+123
+>done
+done!
+```
+11. ##
+```
+while True:
+    line=input('>')
+    if line[0] == '#':
+        continue
+    if line == 'done':
+        break
+    print(line)
+print('done!')
+```
+Output
+```
+>hai
+hai
+>hello
+hello
+>#done
+>done
+done!
+```
+12. ##
+```
+for i in(5,4,3,5,6):
+    print(i)
+print('done')
+```
+Output
+```
+5
+4
+3
+5
+6
+done
+```
+13. ## counting of loop
+```
+count=0
+print('before')
+for thing in [9,41,12,3,74,15]:
+    count =count+1
+    print(count,thing)
+print('after',count)
+```
+Output
+```
+before
+1 9
+2 41
+3 12
+4 3
+5 74
+6 15
+after 6
+```
+14. ## Summing of loop
+```
+count=0
+print('before')
+for thing in [9,41,12,3,74,15]:
+    count =count+thing
+    print(count,thing)
+print('after',count)
+```
+Output
+```
+before
+9 9
+50 41
+62 12
+65 3
+139 74
+154 15
+after 154
+```
+14. ## finding aveerage in a loop
+```
+count=0
+sum=0
+print('before')
+for value in [9,41,12,3,74,15]:
+    count =count+1
+    sum=sum+value
+    print(count,sum,value)
+print('after',count)
+```
+Output
+```
+before
+1 9 9
+2 50 41
+3 62 12
+4 65 3
+5 139 74
+6 154 15
+after 6
+```
+
+
 
 
