@@ -43,6 +43,30 @@ Output
 ```
 Lowest number is: 4
 ```
-
+3. ## even number detector
+```
+num= int(input('enter a number:'))
+if num%2==0:
+    print('entered number %d is odd')
+print('entered number %d is odd')
+```
+Output
+```
+enter a number:14
+entered number %d is even
+```
+4. ## odd number detector
+```
+num= int(input('enter a number:'))
+if num%2!=0:
+    print('entered number %d is odd')
+else:
+    print('entered number %d is even')
+```
+Output
+```
+enter a number:23
+entered number %d is odd
+```
 
 
